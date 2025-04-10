@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63704c50-414d-4863-8017-f1a23fa9a6a1">
+  <producedTypes>
+    <objectType typeId="71cd5456-9e80-4133-8fe3-ec35a548bffd" valueTypeId="9041892e-9601-4a09-8416-c9c067b8be86"/>
+    <refType typeId="a470a579-77f8-408d-ad57-1f60d1984de6" valueTypeId="716983f2-35c3-4c4a-b133-353f679ea1b2"/>
+    <selectionType typeId="4c0e21cc-0fbd-4c06-9158-0ee672148f14" valueTypeId="cb438125-1159-49c0-a611-1b57e3482e10"/>
+    <listType typeId="8ae8b2fc-9ee2-4a38-b994-af30cb742eca" valueTypeId="3014a597-81da-4138-86dd-115fa790311d"/>
+    <managerType typeId="bde1aefb-5b54-4ed8-9901-41a52a0d3aa2" valueTypeId="b43ed62b-00b3-496f-9d00-95fb9f3f124c"/>
+  </producedTypes>
+  <name>СправочникАндрей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник Андрей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СправочникАндрей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СправочникАндрей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cd3b5d74-71dc-4cef-9021-5532d57ad963">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
