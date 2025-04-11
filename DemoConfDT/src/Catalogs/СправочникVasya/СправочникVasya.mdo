@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7ee8dc9-65bd-4174-94f7-bd243ed8c6e8">
+  <producedTypes>
+    <objectType typeId="2819dcbe-38c9-4cbe-ae06-3e1daf604907" valueTypeId="11eb707a-d941-4b2a-9efa-784075a15303"/>
+    <refType typeId="b4262654-78b3-413e-a91e-0e3a27aa5982" valueTypeId="af4a8ceb-b92c-41ec-a46d-5ae1c3aac56f"/>
+    <selectionType typeId="eb102a19-24ce-4474-9c57-61ec690720ae" valueTypeId="78104da7-70b8-4142-b71f-7d2d10435052"/>
+    <listType typeId="c7042949-000f-4f3f-8d86-91b9f0af42f8" valueTypeId="4043735f-46c5-491a-a3b7-bf3eca73cb1a"/>
+    <managerType typeId="f92afbdd-8bfb-4d07-af95-15ed9b8bb18f" valueTypeId="661faed7-b956-4246-bb3d-9c8cc64b0bb2"/>
+  </producedTypes>
+  <name>СправочникVasya</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник vasya</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СправочникVasya.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СправочникVasya.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="711a7fd3-e767-47cd-bdc4-8e91014fa8fa">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
