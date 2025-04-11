@@ -48,4 +48,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2473b053-2cd9-4777-a21a-98c1b036d0ad">
+    <name>ВидVasi</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид vasi</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПеречислениеVasya</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

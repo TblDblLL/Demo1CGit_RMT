@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6cf0006-905e-4912-a605-245a27cb5619">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6cf0006-905e-4912-a605-245a27cb5619">
   <producedTypes>
     <objectType typeId="62c3b76c-cef1-43d5-b837-dc807209ec77" valueTypeId="d61b05eb-49fd-4178-b0a6-2ada936739d0"/>
     <refType typeId="8a062f0e-ed40-46c3-8912-5aa69ffbea70" valueTypeId="31348cd4-ff4f-40b9-aa08-df7b399f1322"/>
@@ -26,4 +26,19 @@
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1b85336e-d23f-4247-b756-83df28d65a96">
+    <name>Vasya</name>
+    <synonym>
+      <key>ru</key>
+      <value>Vasya</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СправочникVasya</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
