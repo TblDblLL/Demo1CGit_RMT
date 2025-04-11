@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7382701d-7ef1-41b0-84df-95a63b159c0b">
+  <producedTypes>
+    <refType typeId="0f8a9c3a-dc43-4b2e-a7cd-905731eed422" valueTypeId="0e1bbb5e-d9c0-4973-89d2-d1b8fa90accc"/>
+    <listType typeId="5548ca34-65e3-44da-b2ca-c971f2920079" valueTypeId="46bb5621-97fe-4f6d-adc0-a203d0e7cd1f"/>
+    <managerType typeId="51e90259-72cf-44bd-b6db-c0a328a2950a" valueTypeId="8ed0ad77-a379-4546-aaf9-7d1450cc2445"/>
+  </producedTypes>
+  <name>ПеречислениеVasya</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечисление vasya</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf67e400-2808-4a90-97e7-b1c45c1e2f27">
+    <name>Пьяный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пьяный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8735806b-5143-4b04-9c43-f3c7aa69aca9">
+    <name>Трезвый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трезвый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
